@@ -10,7 +10,6 @@ describe Color do
 		it "should accept three arguments" do
 			Color.new(1, 2, 3).should be_instance_of Color
 		end
-    end
-
+	end
 	
 end
