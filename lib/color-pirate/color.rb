@@ -1,11 +1,11 @@
 class Color
 
-	attr_accessor :r, :g, :b
+	attr_reader :r, :g, :b
 
 	def initialize r, g, b
-		self.r = r
-		self.g = g
-		self.b = b
+		@r = r
+		@g = g
+		@b = b
 	end
 
 end
