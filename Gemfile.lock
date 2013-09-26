@@ -1,0 +1,52 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ZenTest (4.9.4)
+    addressable (2.3.5)
+    autotest-snarl (0.0.4)
+      net-snarl (~> 0.0.1)
+    coveralls (0.7.0)
+      multi_json (~> 1.3)
+      rest-client
+      simplecov (>= 0.7)
+      term-ansicolor
+      thor
+    crack (0.4.1)
+      safe_yaml (~> 0.9.0)
+    diff-lcs (1.2.4)
+    mime-types (1.25)
+    multi_json (1.8.0)
+    net-snarl (0.0.1)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rspec (2.14.1)
+      rspec-core (~> 2.14.0)
+      rspec-expectations (~> 2.14.0)
+      rspec-mocks (~> 2.14.0)
+    rspec-core (2.14.5)
+    rspec-expectations (2.14.3)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.14.3)
+    safe_yaml (0.9.7)
+    simplecov (0.7.1)
+      multi_json (~> 1.0)
+      simplecov-html (~> 0.7.1)
+    simplecov-html (0.7.1)
+    term-ansicolor (1.2.2)
+      tins (~> 0.8)
+    thor (0.18.1)
+    tins (0.11.0)
+    webmock (1.13.0)
+      addressable (>= 2.2.7)
+      crack (>= 0.3.2)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  ZenTest
+  autotest-snarl
+  coveralls
+  rspec
+  rspec-mocks
+  webmock
